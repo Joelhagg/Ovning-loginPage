@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(225, 225, 225);
+}
+header {
+  background-color: rgb(240, 240, 240);
+}
+main {
+  background-color: rgb(235, 235, 235);
+}
+footer {
+  background-color: rgb(230, 230, 230);
+}
+
+hr {
+  color: black;
+  background-color: black;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+}
+
+#signUpWraper {
+  /* border: solid black 2px; */
+  flex-direction: row;
+}
+
+#logInWraper {
+  /* border: solid black 2px; */
+}
+
+.isAuth {
+  display: none;
+}

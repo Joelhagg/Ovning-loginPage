@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <header class="header">
+            <br>
+            <p>header</p>
+            <h1>Inloggningssida</h1>
+            <br>
+            <div id="signUpLogInWraper">
+                <div id="signUpWraper">
+                    <div>
+                        <h3>Testa att skapa användare och sedan logga in</h3>
+                        <h3>Skapa inloggning!</h3>
+                    </div>
+                    <section class="signupContainer">
+                        <label>Användare</label>
+                        <input id="signUpUserName">
+                        <br>
+                        <label>Lösenord</label>
+                        <input id="signUpPassword">
+                        <button id="signUpSaveButton" onclick="signUp()">Registrera dig</button>
+                    </section>
+                </div>
+                <div id="logInWraper">
+                    <div>
+                        <h3>Logga in</h3>
+                    </div>
+                    <section id="loginContainer">
+                        <label>Användare</label>
+                        <input id="loginUserName">
+                        <br>
+                        <label>Lösenord</label>
+                        <input id="loginPassword">
+                        <button id="loginButton" onclick="readUserNamePasswordInput()">Logga in</button>
+                        <br>
+                        <br>
+                    </section>
+                </div>
+            </div>
+        </header>
+        <main>
+            <hr>
+            <p>main (content)</p>
+            
+            <section class="main" id='mainApp'>
+                <h1>Välkommen du lyckades logga in!</h1>
+
+                <div id="loggedIn">
+                    <h3>Inloggad som:</h3>
+                </div>
+                <div>
+                    <button onclick="logoutUser()">logga ut</button>
+                </div>
+            </section>  
+            <br>
+            <br>
+            <hr>
+        </main>
+        
+
+        <footer class="footer">
+            <br>
+        <p>footer</p>
+            <br>
+            <br>
+            <br>
+            
+        </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
